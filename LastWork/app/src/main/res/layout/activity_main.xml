@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="欢迎使用饿了么！"
+        android:textColor="#0000ff"
+        />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入商家、商品"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:src="@drawable/view1"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/nextview_button4"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="."
+            />
+            <Button
+                android:id="@+id/nextview_button1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="."
+                />
+            <Button
+                android:id="@+id/nextview_button2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="."
+                />
+            <Button
+                android:id="@+id/nextview_button3"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="."
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_meishi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="美食"/>
+        <Button
+            android:id="@+id/button_fruit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="水果"/>
+        <Button
+            android:id="@+id/button_water"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="甜品饮品"/>
+        <Button
+            android:id="@+id/button_shaokao"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="烧烤" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_vip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vip"
+        />
+
+
+
+</LinearLayout>
